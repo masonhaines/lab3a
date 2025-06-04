@@ -27,7 +27,7 @@
 	  document.write("<tr>")
 	  for (var col=1; col<=3; col++) {
 	    rc += 1;
-	    document.write("<td><button>"+pads[rc]+"</button>");
+	    document.write("<td><button>"+pads[rc].slice(-1)+"</button>");
 	    }
 	}
 	document.writeln("</table>");
