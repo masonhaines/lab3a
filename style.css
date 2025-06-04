@@ -1,1 +1,16 @@
+body {
+    background: linear-gradient(90deg, hsla(0, 0%, 0%, 0.726), hsla(0, 0%, 100%, 0.781));
+    
+}
+
+.keypadBox {
+    background: linear-gradient(270deg, hsla(0, 0%, 0%, 0.726), hsla(0, 0%, 100%, 0.781));
+    padding: 25px;
+    /* margin: 5px 5px; */
+    min-width: 300;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 p {font-size:15px;}
